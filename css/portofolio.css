@@ -1,0 +1,142 @@
+* 
+{
+    padding: 0;
+    margin: 0;   
+    font-family: 'Kanit', sans-serif;
+    font-size: large;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(101, 88, 102);
+}
+
+#banner
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#banner img
+{
+    width: 100%;
+}
+
+.heading 
+{
+    position: absolute; 
+    color: white; 
+    text-align: center; 
+    top: 50%; 
+    width: 100%;
+}
+
+.img 
+{
+    width: 40%;
+    height: 100%;
+}
+
+#contact .card:hover i,#contact .card:hover h4{
+	color: #87d37c;
+}
+
+.border-box{
+    border-bottom: 5px solid aliceblue;
+    border-radius: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.inherit-box{
+    border-bottom: 5px solid inherit;
+    border-radius: 10%;
+    padding: 50px;
+    text-align: center;
+}
+
+.spaces{
+    margin-top: 50px;
+}
+.float{
+    float: left;
+}
+
+.center{
+    text-align: center;
+    padding-left: 10%;
+}
+
+#font {
+    font-size: 1.25em;
+}
+
+.h1{
+    text-align: center;
+}
+
+.h3{
+    margin: 5px;
+}
+.skill{
+    background-color: #212121;
+    width: 700px;
+    margin: 60px ;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill li{
+    margin: 20px;
+    padding: 10px;
+}
+
+#facilities{
+    background-color: #dbe5e6;
+    margin: 30px 0px;
+}
+
+#facilities li{
+    font-weight: 900;
+    padding: 5px;
+}
+
+.text{
+    text-align: center;
+    padding: 75px 0px;
+}
+
+.card body {
+    box-shadow:  0 0 20px 7px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    margin: 20px 10px;
+}
+
+.card body a{
+    color: #0c7f90;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top:auto;
+    font-weight: 600;
+}
+
+.card body a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #dbe5e6;
+}
+
+.jumbotron{ 
+    text-align: center;
+    background-color: black;
+    text-decoration: white;
+    background-image: url(../img/grey-banner.jpg);
+}
